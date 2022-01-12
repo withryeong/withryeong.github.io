@@ -42,7 +42,7 @@ logo:                  /assets/img/logo.png
 author:
   # Used by `jekyll-feed`:
   name:                Wryeong
-  email:               wryeong290@gmail.com
+  email:               wooryeong777@gmail.com
   # # Used by `jekyll-seo-tag`:
   # twitter:             <username>
 
@@ -79,7 +79,7 @@ paginate_path:         /:num/
 # Theme
 # ---------------------------------------------------------------------------------------
 
-theme: jekyll-theme-hydejack
+#theme: jekyll-theme-hydejack
 remote_theme: hydecorp/hydejack@v9.0.0-rc.6
 
 
