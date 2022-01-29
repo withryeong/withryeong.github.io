@@ -54,3 +54,8 @@
 .content a:not(.btn):not(.no-hover) {
   text-decoration-color: rgba(79,177,186,0.5);    // rgba(79,177,186,0.5)
 }
+
+.markdown-body > p > a{
+  font-weight: bold !important;
+  color: rgb(3,102,214) !important;
+}
