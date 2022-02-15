@@ -14,6 +14,8 @@
             {{ text | markdownify | replace:'<p>','' | replace:'</p>','' }}
         </p>
 
+         
+
         {% endif %}
     </div>
     <!--블로그 조회수-->
@@ -32,6 +34,11 @@
     {% assign author = site.data.authors.first[1] | default:site.author %}
     <div class="sidebar-social">
         {% include components/social.html author=author %}
+    </div>
+
+    <!--블로그 조회수-->
+    <div style="text-align: center;">
+        <a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fwithryeong.github.io&count_bg=%23C68CEA&title_bg=%23FFC572&icon=github.svg&icon_color=%23E7E7E7&title=hits&edge_flat=false"/></a>
     </div>
 
 </div>
