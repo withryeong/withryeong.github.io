@@ -59,3 +59,27 @@
   font-weight: bold !important;
   color: rgb(3,102,214) !important;
 }
+
+.page-control {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.page-control > div {
+  max-width: 50%;
+}
+
+.button {
+  background: linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+  background-color: #ffffff;
+  border-radius: 16px;
+  border: 3px solid #2f89d3;
+  padding: 6px 100px;
+  font-family: Arial;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  display: inline-block;
+}
